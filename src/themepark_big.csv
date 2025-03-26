@@ -1,0 +1,42 @@
+Nombre,Num_Modulos,Capacidad_por_Modulo,Tiempo_por_Turno,Publico_Permitido
+CONFIG,10,30,0.3,
+Montaña Rusa,4,17,8.0,adulto
+Noria,4,20,6.4,adulto
+Carrusel,1,18,5.7,"niño,adulto"
+Casa del Terror,1,19,3.4,"niño,adulto"
+Autos de Choque,4,9,7.7,"niño,adulto"
+Rápidos,4,13,7.7,"niño,adulto,anciano"
+Barco Pirata,4,9,7.2,niño
+Torre de Caída,4,15,7.8,"adulto,anciano"
+Simulador 4D,4,14,4.0,anciano
+Tobogán Gigante,2,8,6.3,niño
+Laberinto Espejos,4,7,6.3,niño
+Zona de Agua,3,16,7.4,niño
+Cine 5D,2,9,6.9,"adulto,anciano"
+Tren del Oeste,1,12,5.6,"niño,adulto,anciano"
+Circuito Karts,4,7,5.1,"niño,anciano"
+Zona VR,2,6,5.6,adulto
+Sillas Voladoras,4,6,5.5,"niño,anciano"
+Cueva Misteriosa,3,19,7.6,"niño,anciano"
+Tren Minero,1,7,7.3,"niño,anciano"
+Río Encantado,3,13,5.9,adulto
+Aventura Jurassic,3,15,6.6,"niño,anciano"
+Espacio Espacial,1,7,3.3,"niño,adulto,anciano"
+Zona Infantil,1,16,3.4,"niño,adulto,anciano"
+Montaña Nevada,1,16,6.1,anciano
+Zona Alien,4,7,3.0,niño
+Trampolines,3,17,4.8,niño
+Casa al Revés,2,17,5.9,"niño,adulto"
+Columpios,3,6,5.6,"niño,anciano"
+Mini Golf,4,10,7.9,"niño,anciano"
+Bosque Encantado,1,9,6.8,anciano
+Exploradores,1,6,7.0,"niño,anciano"
+Castillo Encantado,3,7,7.6,"niño,adulto"
+Escape Room,4,18,4.6,niño
+Zona Zombie,3,17,7.5,niño
+Vuelos Acrobáticos,3,11,3.9,adulto
+Planeta Loco,4,12,3.3,adulto
+Jungla Perdida,1,10,5.5,anciano
+Safari Salvaje,4,12,7.2,"niño,adulto"
+Isla Pirata,4,6,6.3,"niño,adulto,anciano"
+Cañones de Agua,1,7,7.4,"adulto,anciano"
