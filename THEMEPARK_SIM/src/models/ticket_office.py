@@ -19,7 +19,7 @@ class TicketOffice:
         if not isinstance(turnstile_capacity, int) or turnstile_capacity <= 0:
             raise ValueError("Turnstile capacity must be a positive integer.")
         if not isinstance(entry_price, (int, float)) or entry_price < 0:
-            raise ValueError("Entry price must be a non-negative number.")
+            raise ValueError("Entry price must be a positive number.")
         if data_collector is None:
             raise ValueError("Data collector cannot be None.")
         

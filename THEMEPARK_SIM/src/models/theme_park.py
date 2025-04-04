@@ -16,9 +16,9 @@ class ThemePark:
         if not isinstance(attractions, list) or not attractions:
             raise ValueError("Attractions must be a non-empty list.")
         if ticket_office is None:
-            raise ValueError("Ticket office cannot be None.")
+            raise ValueError("Ticket office can't be None.")
         if data_collector is None:
-            raise ValueError("Data collector cannot be None.")
+            raise ValueError("Data collector can't be None.")
         if not isinstance(day_name, str) or not day_name:
             raise ValueError("Day name must be a non-empty string.")
         if not isinstance(start_time, (int, float)) or start_time < 0:
@@ -56,7 +56,7 @@ class ThemePark:
             total_wait = 0  # Total wait time for attractions
             total_usage = 0  # Total usage time for attractions
 
-            # Loop until the visitor is fatigued or satisfaction drops below a threshold
+            # Loop until the visitor is fatigued or satisfaction drops below a limit
             while visitor["fatigue"] < 10 and visitor["satisfaction"] > 30:
                 # Filter available attractions based on visitor type and operational status
                 available_attractions = [
