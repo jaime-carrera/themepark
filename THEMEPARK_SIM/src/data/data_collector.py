@@ -72,36 +72,6 @@ class DataCollector:
         """
         self.journey_log.append(event_data)  # Add event data to the journey log
 
-    def export_to_csv(self, filename="visitor_data.csv", start_time=600):
-        """Exports the collected visitor data to a CSV file, formatting the entry time if present.
-
-        Args:
-            filename (str): The name of the file to export the data to.
-            start_time (int): The start time used to format entry times (default 600 minutes = 10:00 AM).
-        """
-        if not self.visitor_data:
-            print("No data to export.")  # Check if there is data to export
-            return
-
-        try:
-            # Create a new list with formatted entry_time if present
-            formatted_data = []
-            for record in self.visitor_data:
-                # Si existe "entry_time" en el registro, lo formatea
-                if "entry_time" in record:
-                    record["entry_time"] = format_time(record["entry_time"], start_time)
-                formatted_data.append(record)
-
-            # Write visitor data to a CSV file
-            with open(filename, mode='w', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=formatted_data[0].keys())
-                writer.writeheader()  # Write the header row
-                writer.writerows(formatted_data)  # Write the visitor data rows
-
-            print(f"\nVisitor summary exported to '{filename}'")  # Confirmation message
-        except IOError as e:
-            print(f"Error exporting visitor data to CSV: {e}")  # Handle file writing errors
-
     def export_journey_log(self, filename="visitor_journey.csv", start_time=600):
         """Exports the journey log to a CSV file, formatting the entry time if present.
 
