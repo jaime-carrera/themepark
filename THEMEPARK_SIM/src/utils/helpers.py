@@ -32,7 +32,7 @@ def print_summary(day_name, collector, ticket_office):
     )
 
     # Print summary information
-    print(f"\n\U0001F4CB Summary for {day_name}")  # Print day summary header with an icon
+    print(f"\n Summary for {day_name}")  # Print day summary header with an icon
     print(f"Online sales: {collector.online_sales}")  # Print total online sales
     print(f"Ticket office sales: {collector.successful_sales}")  # Print total ticket office sales
     print(f"Total sales: {collector.successful_sales + collector.online_sales}")  # Print total sales
